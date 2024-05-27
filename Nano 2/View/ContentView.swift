@@ -2,13 +2,7 @@ import SwiftUI
 import RealityKit
 import ARKit
 
-struct PlanetInfo: Identifiable {
-    let id = UUID()
-    let modelName: String
-    let position: SIMD3<Float>
-    let scale: Float
-    let description: String 
-}
+
 
 struct ContentView: View {
     @State private var selectedPlanet: PlanetInfo? = nil

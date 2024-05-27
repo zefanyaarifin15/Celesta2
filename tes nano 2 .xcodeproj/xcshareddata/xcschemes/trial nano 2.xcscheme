@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6DACC8AF2BF4C22F006AE4B3"
-               BuildableName = "Nano 2.app"
+               BuildableName = "Celesta.app"
                BlueprintName = "Nano 2"
                ReferencedContainer = "container:tes nano 2 .xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DACC8AF2BF4C22F006AE4B3"
-            BuildableName = "Nano 2.app"
+            BuildableName = "Celesta.app"
             BlueprintName = "Nano 2"
             ReferencedContainer = "container:tes nano 2 .xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6DACC8AF2BF4C22F006AE4B3"
-            BuildableName = "Nano 2.app"
+            BuildableName = "Celesta.app"
             BlueprintName = "Nano 2"
             ReferencedContainer = "container:tes nano 2 .xcodeproj">
          </BuildableReference>

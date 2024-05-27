@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0D06F12C012F76001AB9E4 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D06F02C012F76001AB9E4 /* IntroView.swift */; };
+		6D18E6172C02480E0023CE82 /* Mercury_1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D18E6162C02480E0023CE82 /* Mercury_1.usdz */; };
+		6D3060462BFB413800E5F6F9 /* Uranus.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6D3060452BFB413800E5F6F9 /* Uranus.scn */; };
+		6D7C24502BFD1081005AD199 /* MARS.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C244F2BFD1081005AD199 /* MARS.usdz */; };
+		6D7C24522BFD108D005AD199 /* MARS.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C24512BFD108D005AD199 /* MARS.scn */; };
+		6D7C24542BFD1AAD005AD199 /* Astronaut 2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C24532BFD1AAD005AD199 /* Astronaut 2.usdz */; };
+		6D7C24562BFD1AB4005AD199 /* Astronaut 2.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C24552BFD1AB4005AD199 /* Astronaut 2.scn */; };
+		6D7C24582BFD1D03005AD199 /* Mars-2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C24572BFD1D03005AD199 /* Mars-2.usdz */; };
+		6D9E388D2BF789CB00AB1073 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E388C2BF789CB00AB1073 /* Jupiter.usdz */; };
+		6D9E388F2BF78D4900AB1073 /* Jupiter.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E388E2BF78D4900AB1073 /* Jupiter.scn */; };
+		6D9E38952BF8EAC500AB1073 /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E38942BF8EAC500AB1073 /* Uranus.usdz */; };
+		6D9E38972BF8EB9D00AB1073 /* Saturn1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E38962BF8EB9D00AB1073 /* Saturn1.usdz */; };
+		6D9E389B2BF8EE8E00AB1073 /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E389A2BF8EE8E00AB1073 /* Mercury.usdz */; };
+		6D9E389D2BF8F08100AB1073 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E389C2BF8F08100AB1073 /* Neptune.usdz */; };
+		6D9E389F2BF8F09600AB1073 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E389E2BF8F09600AB1073 /* Venus.usdz */; };
+		6DA26CAA2C010C9100A14B83 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA26CA92C010C9100A14B83 /* ARViewContainer.swift */; };
+		6DACC8B42BF4C22F006AE4B3 /* Nano_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DACC8B32BF4C22F006AE4B3 /* Nano_2App.swift */; };
+		6DACC8B62BF4C22F006AE4B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DACC8B52BF4C22F006AE4B3 /* ContentView.swift */; };
+		6DACC8B82BF4C230006AE4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DACC8B72BF4C230006AE4B3 /* Assets.xcassets */; };
+		6DACC8BB2BF4C230006AE4B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DACC8BA2BF4C230006AE4B3 /* Preview Assets.xcassets */; };
+		6DACC8CB2BF68BB2006AE4B3 /* Earth-3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6DACC8CA2BF68BB2006AE4B3 /* Earth-3.usdz */; };
+		6DFF6A162BF8F47F00646C32 /* stars1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6DFF6A152BF8F47F00646C32 /* stars1.usdz */; };
+		6DFF6A292BF8F70000646C32 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6DFF6A1E2BF8F6FF00646C32 /* Sun.usdz */; };
+		6DFF6A2F2BF93DFD00646C32 /* Cute_Astronaut.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6DFF6A2E2BF93DFD00646C32 /* Cute_Astronaut.usdz */; };
+		6DFF6A312BF93F4200646C32 /* Cute_Astronaut.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6DFF6A302BF93F4200646C32 /* Cute_Astronaut.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D0D06F02C012F76001AB9E4 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		6D18E6162C02480E0023CE82 /* Mercury_1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury_1.usdz; sourceTree = "<group>"; };
+		6D3060452BFB413800E5F6F9 /* Uranus.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Uranus.scn; sourceTree = "<group>"; };
+		6D7C244F2BFD1081005AD199 /* MARS.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = MARS.usdz; path = ../../../Downloads/MARS.usdz; sourceTree = "<group>"; };
+		6D7C24512BFD108D005AD199 /* MARS.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = MARS.scn; path = ../../../Downloads/MARS.scn; sourceTree = "<group>"; };
+		6D7C24532BFD1AAD005AD199 /* Astronaut 2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Astronaut 2.usdz"; sourceTree = "<group>"; };
+		6D7C24552BFD1AB4005AD199 /* Astronaut 2.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Astronaut 2.scn"; sourceTree = "<group>"; };
+		6D7C24572BFD1D03005AD199 /* Mars-2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Mars-2.usdz"; sourceTree = "<group>"; };
+		6D9E388C2BF789CB00AB1073 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		6D9E388E2BF78D4900AB1073 /* Jupiter.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Jupiter.scn; sourceTree = "<group>"; };
+		6D9E38942BF8EAC500AB1073 /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		6D9E38962BF8EB9D00AB1073 /* Saturn1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn1.usdz; sourceTree = "<group>"; };
+		6D9E389A2BF8EE8E00AB1073 /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		6D9E389C2BF8F08100AB1073 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		6D9E389E2BF8F09600AB1073 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		6DA26CA92C010C9100A14B83 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		6DACC8B02BF4C22F006AE4B3 /* Celesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celesta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DACC8B32BF4C22F006AE4B3 /* Nano_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_2App.swift; sourceTree = "<group>"; };
+		6DACC8B52BF4C22F006AE4B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DACC8B72BF4C230006AE4B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DACC8BA2BF4C230006AE4B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DACC8CA2BF68BB2006AE4B3 /* Earth-3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Earth-3.usdz"; sourceTree = "<group>"; };
+		6DACC8CC2BF68D97006AE4B3 /* Nano-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nano-2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6DFF6A152BF8F47F00646C32 /* stars1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = stars1.usdz; sourceTree = "<group>"; };
+		6DFF6A1E2BF8F6FF00646C32 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
+		6DFF6A2E2BF93DFD00646C32 /* Cute_Astronaut.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cute_Astronaut.usdz; sourceTree = "<group>"; };
+		6DFF6A302BF93F4200646C32 /* Cute_Astronaut.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cute_Astronaut.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DACC8AD2BF4C22F006AE4B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DACC8A72BF4C22F006AE4B3 = {
+			isa = PBXGroup;
+			children = (
+				6DACC8B22BF4C22F006AE4B3 /* Nano 2 */,
+				6DACC8B12BF4C22F006AE4B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DACC8B12BF4C22F006AE4B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DACC8B02BF4C22F006AE4B3 /* Celesta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DACC8B22BF4C22F006AE4B3 /* Nano 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6D18E6162C02480E0023CE82 /* Mercury_1.usdz */,
+				6D7C24572BFD1D03005AD199 /* Mars-2.usdz */,
+				6D7C24532BFD1AAD005AD199 /* Astronaut 2.usdz */,
+				6D7C24552BFD1AB4005AD199 /* Astronaut 2.scn */,
+				6D7C244F2BFD1081005AD199 /* MARS.usdz */,
+				6D7C24512BFD108D005AD199 /* MARS.scn */,
+				6DFF6A2E2BF93DFD00646C32 /* Cute_Astronaut.usdz */,
+				6DFF6A302BF93F4200646C32 /* Cute_Astronaut.scn */,
+				6DFF6A152BF8F47F00646C32 /* stars1.usdz */,
+				6DFF6A1E2BF8F6FF00646C32 /* Sun.usdz */,
+				6D9E389E2BF8F09600AB1073 /* Venus.usdz */,
+				6D9E389C2BF8F08100AB1073 /* Neptune.usdz */,
+				6D9E389A2BF8EE8E00AB1073 /* Mercury.usdz */,
+				6D9E38962BF8EB9D00AB1073 /* Saturn1.usdz */,
+				6D9E38942BF8EAC500AB1073 /* Uranus.usdz */,
+				6D3060452BFB413800E5F6F9 /* Uranus.scn */,
+				6D9E388C2BF789CB00AB1073 /* Jupiter.usdz */,
+				6D9E388E2BF78D4900AB1073 /* Jupiter.scn */,
+				6DACC8CC2BF68D97006AE4B3 /* Nano-2-Info.plist */,
+				6DACC8CA2BF68BB2006AE4B3 /* Earth-3.usdz */,
+				6DACC8B32BF4C22F006AE4B3 /* Nano_2App.swift */,
+				6D0D06F02C012F76001AB9E4 /* IntroView.swift */,
+				6DACC8B52BF4C22F006AE4B3 /* ContentView.swift */,
+				6DA26CA92C010C9100A14B83 /* ARViewContainer.swift */,
+				6DACC8B72BF4C230006AE4B3 /* Assets.xcassets */,
+				6DACC8B92BF4C230006AE4B3 /* Preview Content */,
+			);
+			path = "Nano 2";
+			sourceTree = "<group>";
+		};
+		6DACC8B92BF4C230006AE4B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DACC8BA2BF4C230006AE4B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DACC8AF2BF4C22F006AE4B3 /* Nano 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DACC8BE2BF4C230006AE4B3 /* Build configuration list for PBXNativeTarget "Nano 2" */;
+			buildPhases = (
+				6DACC8AC2BF4C22F006AE4B3 /* Sources */,
+				6DACC8AD2BF4C22F006AE4B3 /* Frameworks */,
+				6DACC8AE2BF4C22F006AE4B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano 2";
+			productName = "Nano 2";
+			productReference = 6DACC8B02BF4C22F006AE4B3 /* Celesta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DACC8A82BF4C22F006AE4B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6DACC8AF2BF4C22F006AE4B3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 6DACC8AB2BF4C22F006AE4B3 /* Build configuration list for PBXProject "tes nano 2 " */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DACC8A72BF4C22F006AE4B3;
+			productRefGroup = 6DACC8B12BF4C22F006AE4B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DACC8AF2BF4C22F006AE4B3 /* Nano 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DACC8AE2BF4C22F006AE4B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DFF6A312BF93F4200646C32 /* Cute_Astronaut.scn in Resources */,
+				6DACC8CB2BF68BB2006AE4B3 /* Earth-3.usdz in Resources */,
+				6D9E38952BF8EAC500AB1073 /* Uranus.usdz in Resources */,
+				6D9E388D2BF789CB00AB1073 /* Jupiter.usdz in Resources */,
+				6D9E388F2BF78D4900AB1073 /* Jupiter.scn in Resources */,
+				6D7C24582BFD1D03005AD199 /* Mars-2.usdz in Resources */,
+				6DFF6A2F2BF93DFD00646C32 /* Cute_Astronaut.usdz in Resources */,
+				6DFF6A162BF8F47F00646C32 /* stars1.usdz in Resources */,
+				6DFF6A292BF8F70000646C32 /* Sun.usdz in Resources */,
+				6D9E389B2BF8EE8E00AB1073 /* Mercury.usdz in Resources */,
+				6D7C24522BFD108D005AD199 /* MARS.scn in Resources */,
+				6D18E6172C02480E0023CE82 /* Mercury_1.usdz in Resources */,
+				6D7C24502BFD1081005AD199 /* MARS.usdz in Resources */,
+				6D9E389F2BF8F09600AB1073 /* Venus.usdz in Resources */,
+				6D7C24542BFD1AAD005AD199 /* Astronaut 2.usdz in Resources */,
+				6DACC8BB2BF4C230006AE4B3 /* Preview Assets.xcassets in Resources */,
+				6D9E389D2BF8F08100AB1073 /* Neptune.usdz in Resources */,
+				6D7C24562BFD1AB4005AD199 /* Astronaut 2.scn in Resources */,
+				6D3060462BFB413800E5F6F9 /* Uranus.scn in Resources */,
+				6D9E38972BF8EB9D00AB1073 /* Saturn1.usdz in Resources */,
+				6DACC8B82BF4C230006AE4B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DACC8AC2BF4C22F006AE4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DACC8B62BF4C22F006AE4B3 /* ContentView.swift in Sources */,
+				6D0D06F12C012F76001AB9E4 /* IntroView.swift in Sources */,
+				6DACC8B42BF4C22F006AE4B3 /* Nano_2App.swift in Sources */,
+				6DA26CAA2C010C9100A14B83 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DACC8BC2BF4C230006AE4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DACC8BD2BF4C230006AE4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DACC8BF2BF4C230006AE4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano 2/Preview Content\"";
+				DEVELOPMENT_TEAM = G6V8N3WZR9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano-2-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikasi ini memerlukan akses ke kamera untuk mendeteksi objek dan menyajikan pengalaman realitas diperpanjang kepada pengguna";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Nano-2";
+				PRODUCT_NAME = Celesta;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DACC8C02BF4C230006AE4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano 2/Preview Content\"";
+				DEVELOPMENT_TEAM = G6V8N3WZR9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nano-2-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikasi ini memerlukan akses ke kamera untuk mendeteksi objek dan menyajikan pengalaman realitas diperpanjang kepada pengguna";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.Nano-2";
+				PRODUCT_NAME = Celesta;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DACC8AB2BF4C22F006AE4B3 /* Build configuration list for PBXProject "tes nano 2 " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DACC8BC2BF4C230006AE4B3 /* Debug */,
+				6DACC8BD2BF4C230006AE4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DACC8BE2BF4C230006AE4B3 /* Build configuration list for PBXNativeTarget "Nano 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DACC8BF2BF4C230006AE4B3 /* Debug */,
+				6DACC8C02BF4C230006AE4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DACC8A82BF4C22F006AE4B3 /* Project object */;
+}
